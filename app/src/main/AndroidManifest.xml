@@ -1,9 +1,5 @@
-<manifest package="io.ckl.dialogutil"
-		  xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest package="io.ckl.dialogutil">
 
-	<application
-		android:theme="@style/AppTheme">
-
-	</application>
+	<application/>
 
 </manifest>

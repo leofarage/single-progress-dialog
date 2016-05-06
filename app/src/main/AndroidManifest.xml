@@ -1,4 +1,7 @@
-<manifest package="io.ckl.dialogutil">
+<manifest package="io.ckl.dialogutil"
+		  xmlns:tools="http://schemas.android.com/tools">
+
+	<uses-sdk tools:overrideLibrary="io.ckl.dialogutil" />
 
 	<application/>
 

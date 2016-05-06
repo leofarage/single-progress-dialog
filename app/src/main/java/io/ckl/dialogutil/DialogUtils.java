@@ -20,7 +20,8 @@ public class DialogUtils {
 			return;
 		}
 
-		progressDialog = new ProgressDialog(context, R.style.DialogUtil_Theme);
+		progressDialog = new ProgressDialog(context, R.style.TransparentDialogTheme);
+		progressDialog.setProgressStyle(android.R.style.Widget_ProgressBar_Small);
 		progressDialog.setCancelable(cancelable);
 		progressDialog.show();
 	}
